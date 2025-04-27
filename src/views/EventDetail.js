@@ -4,8 +4,8 @@ import axios from 'axios';
 import 'leaflet/dist/leaflet.css';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
-const TM_API_KEY = 'sR6ANVUGAiVdn953FtSGkdZxA7qTz8gH';  // ← Replace with your Tickemaster key
-const WEATHER_API_KEY = 'cc6f9d84abc4d582c9e723a4ac2457bd'; // ← Replace with your OpenWeather key
+const TM_API_KEY = 'Tickemaster API key';  // ← Replace with your Tickemaster key
+const WEATHER_API_KEY = 'OpenWeather API key'; // ← Replace with your OpenWeather key
 
 const EventDetail = () => {
   const { eventId } = useParams();
