@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
-const TM_API_KEY = 'sR6ANVUGAiVdn953FtSGkdZxA7qTz8gH'; //← Replace with your Tickemaster key
+const TM_API_KEY = 'Tickemaster API key'; //← Replace with your Tickemaster key
 
 const Dashboard = () => {
   const navigate = useNavigate();
