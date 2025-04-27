@@ -1,0 +1,128 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  padding-top: 40px;
+}
+
+.navbar {
+  background-color: #3a04c1;
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color: #ffc107 !important;
+}
+
+.navbar-custom {
+  background-color: #012344; /* your custom blue */
+}
+
+.footer-custom {
+  background-color: #01182f; /* your custom blue */
+}
+
+/* Color palette */
+:root {
+  --primary-color: #005f73;
+  --secondary-color: #0a9396;
+  --accent-color: #94d2bd;
+  --bg-light: #e9f5f2;
+  --text-dark: #001219;
+}
+
+/* Global body */
+body {
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+}
+
+/* Card overrides */
+.card {
+  border: none;
+}
+.card .btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+.card .btn-primary:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+/* Footer overrides */
+footer {
+  background-color: var(--text-dark);
+  color: var(--bg-light);
+}
+footer a {
+  color: var(--bg-light);
+}
+footer a:hover {
+  color: var(--accent-color);
+}
+
+/* Back-to-Top button */
+#back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  display: none;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  z-index: 1000;
+}
+#back-to-top:hover {
+  background-color: var(--secondary-color);
+}
+
+
+/* Hero section on Home page */
+.home-hero {
+  background: url('https://source.unsplash.com/1600x900/?concert,event') 
+    center/cover no-repeat;
+  height: 70vh;
+  position: relative;
+}
+
+/* Ensure text sits on top */
+.home-hero .bg-dark {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+/* Override input-group focus */
+.input-group .form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(14, 77, 89, 0.25);
+  border-color: var(--secondary-color);
+}
+
+/* Button hover tweaks */
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
