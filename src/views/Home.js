@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 // Replace with your actual Ticketmaster API key
-const TM_API_KEY = 'sR6ANVUGAiVdn953FtSGkdZxA7qTz8gH';
+const TM_API_KEY = 'Tickemaster API key';
 const PAGE_SIZE = 4;
 const CATEGORIES = ['Music', 'Arts & Theatre', 'Comedy'];
 
