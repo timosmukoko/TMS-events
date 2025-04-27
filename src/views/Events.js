@@ -4,8 +4,8 @@ import axios from 'axios';
 import 'leaflet/dist/leaflet.css';
 import EventCard from '../components/EventCard';
 
-const TM_API_KEY = 'sR6ANVUGAiVdn953FtSGkdZxA7qTz8gH';   // <-- put your real Ticketmaster key here
-const WEATHER_API_KEY = 'cc6f9d84abc4d582c9e723a4ac2457bd'; // <-- put your real OpenWeatherMap key here
+const TM_API_KEY = 'Tickemaster API key';   // <-- put your real Ticketmaster key here
+const WEATHER_API_KEY = 'OpenWeather API key'; // <-- put your real OpenWeatherMap key here
 const PAGE_SIZE = 12;
 
 const irelandCities = [
